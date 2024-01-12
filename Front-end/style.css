@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    text-align: center;
+    margin-top:50px;
+    color:white;
+    font-size:34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: black;
+}
+#instructions{
+    margin-top:50px;
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+}
+.form{
+    margin-top:50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form > div{
+    width: 40vw;
+    height: 10vh;
+    color: white;
+}
+.form div{
+    font-size:18px;
+    font-weight: bolder;
+}
+#purchase{
+    position: relative;
+    left: 40vw;
+    padding: 12px;
+    color:white;
+    background-color:red;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#purchase:hover{
+    background-color: rgb(230, 76, 76);
+}
+.receipt button{
+    position: relative;
+    left: 40vw;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white;
+    background-color:red;
+    margin-top:20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.seats button{
+    position: relative;
+    left: 40vw;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white;
+    background-color:red;
+    margin-top:20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.seats button a{
+    color:white;
+    text-decoration: none;
+}
+.receipt button a{
+    color:white;
+    text-decoration: none;
+}
+.receipt button:hover{
+    background-color: rgb(230, 76, 76);
+}
+.seats button:hover{
+    background-color: rgb(230, 76, 76);
+}
+.remove button{
+    position: relative;
+    left: 40vw;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white;
+    background-color:red;
+    margin-top:20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.remove button:hover{
+    background-color: rgb(230, 76, 76);
+}
+.modify button{
+    position: relative;
+    left: 40vw;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white;
+    background-color:red;
+    margin-top:20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.modify button:hover{
+    background-color: rgb(230, 76, 76);
+}

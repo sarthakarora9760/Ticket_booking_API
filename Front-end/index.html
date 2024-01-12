@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Train booking System</h1>
+    </header>
+    <div id="instructions">Please Enter your details below:-</div>
+    <form>
+        <div class="form">
+            <div class="item1">
+                FirstName: <input type="text" id="fname">
+                <label for="fname" name="fname"></label>
+            </div>
+            <div class="item2">
+                LastName: <input type="text" id="lname">
+                <label for="lname" name="lname"></label>
+            </div>
+            <div class="item3">
+                Email-ID: <input type="email" id="email">
+                <label for="email" name="email"></label>
+            </div>
+            <div class="item4">
+                Choose the origin:
+                <select id="from" name="from">
+                    <option value="London">London</option>
+                    <option value="Newyork">NewYork</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Goa">Goa</option>
+                </select>
+                <label for="from" name="from"></label>
+            </div>
+            <div class="item5">
+                Choose the destination: 
+                <select id="to" name="to">
+                    <option value="London">France</option>
+                    <option value="Newyork">Mumbai</option>
+                    <option value="Paris">New Delhi</option>
+                    <option value="Goa">Kolkata</option>
+                </select>
+                <label for="to" name="to"></label>
+            </div>
+        </div>
+    </form>
+    <button id="purchase" onclick="purchase()">
+        Purchase Ticket
+    </button>
+    <div class="receipt">
+        <button><a href="receipt.html">View Receipt</a></button>
+    </div>
+    <div class="seats">
+        <button><a href="seats.html">View seats Allocation</a></button>
+    </div>
+    <div class="remove" onclick="remove()">
+        <button>Remove User</button>
+    </div>
+    <div class="modify" onclick="modify()">
+        <button>Modify seats</button>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</html>
